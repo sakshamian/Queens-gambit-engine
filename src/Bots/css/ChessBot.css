@@ -1,0 +1,55 @@
+.ChessBoardContainer {
+  width: 60%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.headerForBots {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 25px;
+  background: none;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  font-size: 30px;
+}
+.clearBoard {
+  width: 50%;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 25px;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  font-size: 30px;
+  font-family: "Orbitron", sans-serif;
+}
+.clearBoard:hover {
+  background-color: var(--themecolor);
+}
+
+.botHeader{
+  display: flex;
+}
+.botHeader > * {
+  border: 2px solid #3f51b5;
+}
+
+.ChessBoardContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+  
+.chessContainer{
+    width: 500px;
+}

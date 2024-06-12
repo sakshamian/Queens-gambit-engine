@@ -1,0 +1,31 @@
+.headerForBots{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:10px;
+    padding-top:5%;
+    padding-bottom: 5%;
+    border: 2px solid var(--themecolor) ;
+    background:none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    font-size:30px;
+}
+.difficultyRow{
+    width:100%;
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+.difficultySelectorButton{
+    width:48%;
+    background:none;
+    border: 2px var(--themecolor) solid;
+    font-size:30px;
+    padding: 5%;
+    cursor: pointer;
+}
+.selected{
+    background-color: var(--themecolor);
+}

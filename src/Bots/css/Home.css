@@ -1,0 +1,60 @@
+.card{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    background: #1c1c1e;
+}
+
+button{
+    background-color: inherit;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: larger;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 30%;
+    padding: 20px;
+    border: 2px solid #3f51b5;
+}
+
+button:hover{
+    background-color: #3f51b5;
+}
+.selected{
+    background-color: #3f5165;
+}
+
+.difficultyRow{
+    display: flex;
+    justify-content: space-around;
+}
+
+.diffHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  color: #fff;
+  font-size: 30px;
+}
+
+.play-btn{
+    background-color: inherit;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: larger;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 30%;
+    padding: 20px;
+    color: green;
+    border: 2px solid green;
+    margin: 10px auto;
+    text-align: center;
+}
